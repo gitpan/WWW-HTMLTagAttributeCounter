@@ -1,0 +1,45 @@
+WWW-HTMLTagAttributeCounter
+
+The module was developed for use in an IRC bot thus you may find it useless for anything else.
+
+The module simply accesses a given webpage and counts either HTML tags or HTML element
+attributes.
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+	perl Build.PL
+	./Build
+	./Build test
+	./Build install
+
+SUPPORT AND DOCUMENTATION
+
+After installing, you can find documentation for this module with the
+perldoc command.
+
+    perldoc WWW::HTMLTagAttributeCounter
+
+You can also look for information at:
+
+    RT, CPAN's request tracker
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=WWW-HTMLTagAttributeCounter
+
+    AnnoCPAN, Annotated CPAN documentation
+        http://annocpan.org/dist/WWW-HTMLTagAttributeCounter
+
+    CPAN Ratings
+        http://cpanratings.perl.org/d/WWW-HTMLTagAttributeCounter
+
+    Search CPAN
+        http://search.cpan.org/dist/WWW-HTMLTagAttributeCounter
+
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2008 'Zoffix
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
+
