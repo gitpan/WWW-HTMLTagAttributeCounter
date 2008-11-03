@@ -1,11 +1,12 @@
 #!/usr/bin/env perl
 
-use Test::More tests => 13;
+use Test::More tests => 14;
 
 BEGIN {
     use_ok('LWP::UserAgent');
     use_ok('HTML::TokeParser::Simple');
     use_ok('overload');
+    use_ok('Class::Data::Accessor');
 	use_ok( 'WWW::HTMLTagAttributeCounter' );
 }
 

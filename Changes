@@ -1,5 +1,8 @@
 Revision history for WWW-HTMLTagAttributeCounter
 
+0.0102  November 3, 2008
+        Fixed broken dependancies
+
 0.0101  November 1, 2008
         First version, released on an unsuspecting world.
 

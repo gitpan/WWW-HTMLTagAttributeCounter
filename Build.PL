@@ -14,6 +14,7 @@ my $builder = Module::Build->new(
         'LWP::UserAgent'           => 2.036,
         'HTML::TokeParser::Simple' => 3.15,
         'overload'                 => 1.04,
+        'Class::Data::Accessor' => 0.04001,
     },
     add_to_cleanup      => [ 'WWW-HTMLTagAttributeCounter-*' ],
     create_makefile_pl => 'traditional',
