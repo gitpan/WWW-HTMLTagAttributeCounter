@@ -3,18 +3,18 @@ package WWW::HTMLTagAttributeCounter;
 use warnings;
 use strict;
 
-our $VERSION = '0.0102';
+our $VERSION = '0.0103';
 
 use LWP::UserAgent;
 use HTML::TokeParser::Simple;
 use overload q|""| => sub { shift->result_readable };
 
-use base 'Class::Data::Accessor';
-__PACKAGE__->mk_classaccessors qw/
+use base 'Class::Accessor::Grouped';
+__PACKAGE__->mk_group_accessors( simple => qw/
     ua
     result
     error
-/;
+/);
 
 sub new {
     my ( $class, %args ) = @_;
@@ -101,7 +101,7 @@ sub _count {
     defined $count->{$_}
         or $count->{$_} = 0
             for @$what;
-    
+
     return $count;
 }
 
@@ -113,6 +113,8 @@ sub _set_error {
 
 1;
 __END__
+
+=encoding utf8
 
 =head1 NAME
 
