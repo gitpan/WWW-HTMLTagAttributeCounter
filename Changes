@@ -1,5 +1,8 @@
 Revision history for WWW-HTMLTagAttributeCounter
 
+0.0104  2013-12-02
+        - Fixed a broken test
+
 0.0103  2013-12-02
         - Minor fixes to comply with the specs and Kwalitee game
         - Added autogeneration of README from POD
